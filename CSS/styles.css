@@ -41,6 +41,10 @@ header .logo {
    width: auto;
 }
 
+header h2 {
+   color: antiquewhite;
+}
+
 h2 {
    width: 100%;
    font-size: 50px;
@@ -339,9 +343,5 @@ footer .textofooter {
    .nosotros {
       display: flex;
       flex-direction: column;
-   }
-
-   h2 {
-      color: antiquewhite;
    }
 }
