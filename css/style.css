@@ -53,15 +53,12 @@ h2 {
   padding: 20px 0%;
   margin: 20px 1%;
 }
-
 .lista .activo {
   color: rgb(196, 127, 37);
 }
-
 .lista ul li a {
   color: antiquewhite;
 }
-
 .lista ul li a:hover {
   color: brown;
 }
@@ -83,23 +80,20 @@ h2 {
 
 footer {
   background-color: darkblue;
-  color: aliceblue;
+  color: antiquewhite;
   font-size: 30px;
   padding: 20px;
   text-align: center;
 }
-
 footer .redes a {
   color: antiquewhite;
   margin: 20px 30px;
 }
-
 footer .textofooter {
   display: flex;
   justify-content: space-between;
 }
-
-.textofooter a {
+footer .textofooter a {
   color: antiquewhite;
 }
 
@@ -109,18 +103,15 @@ footer .textofooter {
   margin: 20px;
   padding: 10px;
 }
-
 .formulario form {
   width: 500px;
 }
-
 .formulario form div {
   display: flex;
   justify-content: space-between;
   margin-bottom: 15px;
   align-items: center;
 }
-
 .formulario form div button {
   width: 100%;
   display: flex;
@@ -137,7 +128,6 @@ footer .textofooter {
   justify-content: center;
   align-items: center;
 }
-
 .mapa iframe {
   width: 500px;
   height: 200px;
@@ -147,7 +137,6 @@ footer .textofooter {
 .nosotros {
   margin: 50px;
 }
-
 .nosotros h2 {
   margin-bottom: 30px;
 }
@@ -166,15 +155,13 @@ footer .textofooter {
   margin: 5px;
   transition: all ease 0.5s;
 }
-
-.categoria:hover {
-  background-color: darkblue;
-  color: antiquewhite;
-}
-
 .categoria i {
   margin-bottom: 10px;
   font-size: 40px;
+}
+.categoria:hover {
+  background-color: darkblue;
+  color: antiquewhite;
 }
 
 .prod {
@@ -216,15 +203,6 @@ footer .textofooter {
 }
 
 @media screen and (max-width: 767px) {
-  .lista ul {
-    background-color: darkblue;
-    display: none;
-    position: absolute;
-    width: 150px;
-    height: 290px;
-    flex-direction: column;
-    justify-content: space-between;
-  }
   .lista {
     padding: 0px;
     height: 65px;
@@ -233,6 +211,15 @@ footer .textofooter {
     padding-right: 5px;
     position: sticky;
     top: 0;
+  }
+  .lista ul {
+    background-color: darkblue;
+    display: none;
+    position: absolute;
+    width: 150px;
+    height: 290px;
+    flex-direction: column;
+    justify-content: space-between;
   }
   .lista ul {
     padding-left: 5px;
