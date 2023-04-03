@@ -1,5 +1,6 @@
 @import "partials/variables.scss";
 @import "partials/reset";
+@import "partials/animation";
 
 a {
     text-decoration: none;
@@ -39,7 +40,16 @@ h2 {
     width: 100%;
     font-size: 50px;
     color: crimson;
+    transition: all 0.5s ease;
+    animation-name: desplazamiento;
+    animation-duration: 2s;
 }
+
+
+h2:hover {
+    letter-spacing: 0.7rem;
+}
+
 
 
 .lista {
@@ -76,7 +86,8 @@ h2 {
     padding: 50px;
     background-image: url(../multimedia/cancha.jpg );
     background-size: cover;
-    background-position: 0%;
+    background-position: center;
+    animation: zoomfondo 2s;
 
 }
 
@@ -203,6 +214,8 @@ footer {
     width: 100%;
     justify-content: center;
     margin: 0;
+    animation-name: productosanimation;
+    animation-duration: 2s;
 
 }
 
