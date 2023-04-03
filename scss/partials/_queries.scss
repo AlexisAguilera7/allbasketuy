@@ -24,15 +24,15 @@
         margin-bottom: 0px;
         right: 0px;
         text-align: left;
+
+        li {
+            display: flex;
+            font-size: large;
+            margin: 0px 0px;
+            padding: 10px 5px;
+        }
     }
 
-    .lista ul li {
-        display: flex;
-        font-size: large;
-        margin: 0px 0px;
-        padding: 10px 5px;
-
-    }
 
     label.menu {
         display: block;
