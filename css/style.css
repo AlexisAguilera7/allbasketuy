@@ -12,27 +12,33 @@
     margin-left: 100%;
     width: 300%;
   }
+
   to {
     margin-left: 0%;
     width: 100%;
   }
 }
+
 @keyframes productosanimation {
   from {
     opacity: 0;
   }
+
   to {
     opacity: 1;
   }
 }
+
 @keyframes zoomfondo {
   from {
     background-size: 150%;
   }
+
   to {
     background-size: 100%;
   }
 }
+
 h1 {
   font-size: 8vw;
 }
@@ -57,15 +63,18 @@ header {
   flex-wrap: wrap;
   justify-content: left;
 }
+
 header .logo {
   height: 300px;
   width: auto;
 }
+
 header h2 {
   color: antiquewhite;
 }
 
 h2 {
+  width: 100%;
   color: crimson;
   transition: all 0.5s ease;
   animation-name: desplazamiento;
@@ -81,6 +90,7 @@ h2:hover {
   background-color: darkblue;
   padding: 10px;
 }
+
 .lista ul li {
   font-size: 2vw;
   width: 20%;
@@ -88,12 +98,15 @@ h2:hover {
   padding: 20px 0%;
   margin: 20px 1%;
 }
+
 .lista .activo {
   color: rgb(196, 127, 37);
 }
+
 .lista ul li a {
   color: antiquewhite;
 }
+
 .lista ul li a:hover {
   color: brown;
 }
@@ -121,14 +134,17 @@ footer {
   padding: 20px;
   text-align: center;
 }
+
 footer .redes a {
   color: antiquewhite;
   margin: 20px 30px;
 }
+
 footer .textofooter {
   display: flex;
   justify-content: space-between;
 }
+
 footer .textofooter a {
   color: antiquewhite;
 }
@@ -139,15 +155,18 @@ footer .textofooter a {
   margin: 20px;
   padding: 10px;
 }
+
 .formulario form {
   width: 500px;
 }
+
 .formulario form div {
   display: flex;
   justify-content: space-between;
   margin-bottom: 15px;
   align-items: center;
 }
+
 .formulario form div button {
   width: 100%;
   display: flex;
@@ -164,6 +183,7 @@ footer .textofooter a {
   justify-content: center;
   align-items: center;
 }
+
 .mapa iframe {
   width: 500px;
   height: 200px;
@@ -173,6 +193,7 @@ footer .textofooter a {
 .nosotros {
   margin: 50px;
 }
+
 .nosotros h2 {
   margin-bottom: 30px;
 }
@@ -191,10 +212,12 @@ footer .textofooter a {
   margin: 5px;
   transition: all ease 0.5s;
 }
+
 .categoria i {
   margin-bottom: 10px;
   font-size: 40px;
 }
+
 .categoria:hover {
   background-color: darkblue;
   color: antiquewhite;
@@ -250,6 +273,7 @@ footer .textofooter a {
     position: sticky;
     top: 0;
   }
+
   .lista ul {
     background-color: darkblue;
     display: none;
@@ -259,18 +283,21 @@ footer .textofooter a {
     flex-direction: column;
     justify-content: space-between;
   }
+
   .lista ul {
     padding-left: 5px;
     margin-bottom: 0px;
     right: 0px;
     text-align: left;
   }
+
   .lista ul li {
     display: flex;
     font-size: large;
     margin: 0px 0px;
     padding: 10px 5px;
   }
+
   label.menu {
     display: block;
     font-size: 1.5em;
@@ -278,38 +305,48 @@ footer .textofooter a {
     cursor: pointer;
     height: 55px;
   }
-  #check-menu:checked ~ ul {
+
+  #check-menu:checked~ul {
     display: block;
   }
+
   h1 {
     font-size: 10vw;
   }
+
   .logo {
     display: none;
   }
+
   h2 {
     font-size: 5vw;
   }
+
   header {
     height: 250px;
     width: 100%;
   }
+
   .video {
     background-position: center;
   }
+
   footer .textofooter,
   .redes {
     font-size: 20px;
   }
+
   .nosotros {
     display: flex;
     flex-direction: column;
   }
+
   .mapa {
     display: flex;
     flex-direction: column;
   }
 }
+
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .nosotros {
     display: flex;
