@@ -1,0 +1,9 @@
+@mixin titulos ($tamanodetitulos) {
+ h1 {
+  font-size: $tamanodetitulos;
+ }
+
+ h2 {
+  font-size: $tamanodetitulos -2;
+ }
+}
