@@ -63,7 +63,6 @@ header .logo {
 }
 header h2 {
   color: antiquewhite;
-  width: 100%;
 }
 
 h2 {
@@ -316,6 +315,4 @@ footer .textofooter a {
     display: flex;
     flex-direction: column;
   }
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
